@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: #00adb5;
+  padding: 10px;
+  font-size: 62.5%;
+  line-height: 1.5;
+  word-spacing: 0.1rem;
+}
+
+#side-block {
+  align-items: center;
+  background: #393e46;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.411);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  height: 93vh;
+  margin: 20px;
+  padding-top: 50px;
+  width: 20vw;
+  min-width: 200px;
+}
+
+#side-block input {
+  border-radius: 10px;
+  border: 0;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  outline: 0;
+  padding: 0.25rem 1.75rem;
+  text-align: center;
+  width: 70%;
+  margin: 20px auto;
+  font-weight: bold;
+  position: relative;
+  top: -10px;
+}
+
+#main-block {
+  border-radius: 20px;
+  margin: 20px;
+  height: 93vh;
+  width: 75vw;
+  background: #393e46;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.411);
+  position: relative;
+  min-width: 906px;
+}
+
+#header {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header h1 {
+  font-size: 1.7rem;
+}
+#header p {
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+#id-block {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 260px;
+}
+
+#id-block input {
+  width: 220px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 1.5rem;
+  outline: 0;
+  border: 0;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 23px;
+}
+
+#id-block textarea{
+  border-radius: 10px;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  width: 220px;
+  height: 100px;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px;
+  margin-left: 23px;
+  max-height: 62px;
+}
+
+#mode-of-payment {
+  color: white;
+  display: inline-flex;
+  flex-direction: column;
+  width: 260px;
+  border-radius: 10px;
+  padding: 10px auto;
+  margin: 15px 20px 10px;
+  height: 300px;
+  position: relative;
+  bottom: 0;
+  border: 1px solid gray !important;
+}
+
+#pay {
+  margin: 2px auto;
+}
+
+#mode-of-payment input[type="radio"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 3px;
+}
+
+#mode-of-payment input[type="text"] {
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 1.5rem;
+  outline: 0;
+  border: 0;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#gen-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.invoice-blocks {
+  display: flex;
+}
+
+.data-table {
+  font-weight: bold;
+  margin: 30px 0 0 50px;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  overflow: scroll;
+  height: 270px;
+  position: relative;
+  width: 90%;
+  float: right;
+  clear: both;
+}
+
+
+
+.table {
+  background: white;
+  width: 100%;
+  font-size: 0.7rem;
+  border-radius: 0 0 10px 10px;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background: white;
+  line-height: 2;
+  word-spacing: 0.1rem;
+
+}
+
+.table-data-input {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  padding-right: 2.4%;
+}
+
+.table2 table {
+  margin: 30px auto;
+  font-weight: bold;
+  width: 90%;
+background: white;
+  margin: 30px 0 0 50px;
+}
+
+.table3 {
+  margin: 30px 0 0 50px;
+}
+
+.table3 table {
+  width: 50%;
+
+  border-radius: 10px 10px 0 0;
+  height: 150px;
+  margin-top: 50px;
+  font-weight: bold;
+  margin: auto;
+  position: relative;
+  left: 20%;
+}
+.table4 {
+  margin: 30px 0 0 50px;
+}
+
+.table4 table {
+  font-size: 1.1rem;
+  width: 50%;
+  margin: auto;
+  height: 40px;
+  border-radius: 10px 10px 0 0;
+  font-weight: bold;
+  position: relative;
+  left: 20%;
+}
+
+.buttons-line {
+  background: #00adb5;
+  padding: 0.7rem 1.5rem;
+  margin: auto 20px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  width: 40%;
+}
+
+.buttons-line button {
+  width: 125px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  margin: auto 5%;
+  border: 0;
+  outline: 0;
+  color: white;
+  background: #222831;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.479);
+    transition: background 0.15s;
+}
+.buttons-line button:active {
+  background: #5c626b;
+  color: white;
+}
+
+.ok-button {
+  border: 0;
+  width: auto;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 1rem;
+  background: #222831;
+  color: white;
+  height: 2rem;
+  transition: background 0.15s;
+
+}
+
+.ok-button:active {
+  color: white;
+  background: #575d66;
+}
+
+.round-radius {
+  border-radius: 10px 10px 0 0;
+}
+
+.descrip {
+  border: 2px solid rgba(0, 0, 0, 0.562);
+  width: 170px;
+  padding:10px;
+  margin: 0;
+  font: 200;
+  border-radius: 5px;
+}
+
+.descrip-rad{
+  border-radius: 5px;
+}
+
+.lower-border{
+    border-radius: 0 0 20px 20px;
+    border-collapse:unset;
+}
